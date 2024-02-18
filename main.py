@@ -1,6 +1,5 @@
 import cv2
 import time
-import supervision as sv
 from inference import get_roboflow_model
 import os
 # Limpa o terminal
@@ -65,10 +64,6 @@ cap = cv2.VideoCapture(2)
 # Carrega os modelos
 model = get_roboflow_model(model_id="corraut-2pond/5")
 modelAlts = get_roboflow_model(model_id='corraut/2')
-
-# Inicializa os anotadores de BoundingBox e Label
-bounding_box_annotator = sv.BoundingBoxAnnotator()
-label_annotator = sv.LabelAnnotator()
 
 leituras = []  # Armazena as leituras das alternativas reconhecidas
 
