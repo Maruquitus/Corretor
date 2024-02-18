@@ -5,7 +5,7 @@ Este é um sistema desenvolvido para reconhecimento e avaliação automática de
 ### Requisitos do Sistema
 
 - Python 3.x
-- Bibliotecas: `cv2`, `time`, `supervision`, `inference`, `os`
+- Bibliotecas: `cv2`, `time`, `inference`, `os`
 - Nvidia CUDA e CUDNN
 
 ### Como usar
